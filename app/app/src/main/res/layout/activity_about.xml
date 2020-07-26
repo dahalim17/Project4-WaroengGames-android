@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".About">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/banner"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:gravity="center_horizontal"
+            android:text="About Us"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="409dp"
+            android:layout_height="130dp"
+            android:layout_below="@id/textView3"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/logoo" />
+
+        <WebView
+            android:id="@+id/aboutone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="51dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:padding="15dp"
+            android:textColor="@color/colorBlack" />
+
+        <WebView
+            android:id="@+id/abouttwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aboutone"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:padding="15dp"
+            android:textColor="@color/colorBlack" />
+
+        <WebView
+            android:id="@+id/aboutthree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/abouttwo"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:padding="15dp"
+            android:textColor="@color/colorBlack" />
+
+        <WebView
+            android:id="@+id/aboutfour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aboutthree"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:padding="15dp"
+            android:textColor="@color/colorBlack" />
+
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComingSoon">
+
+    <ImageView
+        android:id="@+id/imageViewCS"
+        android:layout_width="253dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="132dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imgholder" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="256dp"
+        android:text="Games Title :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCS" />
+
+    <EditText
+        android:id="@+id/editTextNamaCS"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="35dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCS" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="256dp"
+        android:text="Genre :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextGenreCS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNamaCS" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="256dp"
+        android:text="Price :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPriceCS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGenreCS" />
+
+    <EditText
+        android:id="@+id/editTextGenreCS"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="35dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNamaCS" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="256dp"
+        android:text="Price :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPriceCS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGenreCS" />
+
+    <EditText
+        android:id="@+id/editTextPriceCS"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="35dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGenreCS" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="256dp"
+        android:text="Release Date :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextReleasedCS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPriceCS" />
+
+    <EditText
+        android:id="@+id/editTextReleasedCS"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="35dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/buttonSaveCS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="100dp"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCancelCS"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextReleasedCS" />
+
+    <Button
+        android:id="@+id/buttonCancelCS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:text="Clear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextReleasedCS" />
+
+    <ProgressBar
+        android:id="@+id/progressBarCS"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

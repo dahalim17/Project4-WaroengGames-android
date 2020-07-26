@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Waroeng Games</string>
+    <string name="con1">Line: @war.games</string>
+    <string name="con2">Instagram: @waroeng-games</string>
+    <string name="con3">WhatsApp : +628 12 1000 2000</string>
+    <string name="con4">Email: waroeng-games@gmail.com</string>
+    <string name="con5">Address : Senayan Trade Center (STC), GF, Jl. Asia Afrika No.27, RT.1/RW.3, Gelora, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10270</string>
+    <string name="title_activity_listgame">listgame</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="action_settings">Settings</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+</resources>
+
+
